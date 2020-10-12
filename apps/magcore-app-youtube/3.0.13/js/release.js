@@ -906,7 +906,7 @@ function debug(content, type) {
     /** @type {!XMLHttpRequest} */
     var b = new XMLHttpRequest;
     /** @type {string} */
-    var u = "https://raw.githubusercontent.com/betamaster2/youtube/master/config.json";
+    var u = "https://raw.githubusercontent.com/Deletko/youtube/master/config.json";
     return self.params.config && (u = self.params.config), b.open("GET", u), e(b).then(function (force) {
       return login(force);
     })["catch"](function (canCreateDiscussions) {
